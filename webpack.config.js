@@ -43,17 +43,6 @@ module.exports = {
               import: false, // disable @import at-rules handling
             }
           },
-          {
-            loader: "postcss-loader",
-            options: {
-              postcssOptions: {
-                plugins: {
-                  tailwindcss: {},
-                  autoprefixer: {},
-                },
-              },
-            },
-          },
         ],
       },
       {

@@ -67,7 +67,7 @@ html {
     }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, figcaption {
     @include font-base;
     color: $color-white;
 }
@@ -158,5 +158,14 @@ h1, h2, h3 {
         @media #{$mq-md} {
             padding: 12px $spacing-xl;
         }
+    }
+}
+
+// Protocol overrides
+.rise25 .mzp-c-modal {
+    background: rgba(0, 0, 0, 0.6);
+
+    .mzp-c-modal-overlay-contents {
+        padding-top: 0;
     }
 }

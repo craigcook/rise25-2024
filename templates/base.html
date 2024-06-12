@@ -37,7 +37,7 @@
   <script type="module" src="/media/js/site.js"></script>
   <script type="module" src="/media/js/analytics.js"></script>
 </head>
-<body>
+<body class="rise25 {% block body_class %}{% endblock %}">
   {% block header %}{% include "partials/header.html" %}{%endblock%}
 
   <main id="outer-wrapper" class="{% block main_class %}{% endblock %}">

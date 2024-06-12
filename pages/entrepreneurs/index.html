@@ -1,0 +1,69 @@
+{#
+ # This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ #}
+
+{% extends "honorees-base.html" %}
+
+{% block page_title %}Rise25 - 2024 Honorees - Meet the Entrepreneurs{% endblock %}
+{% block page_desc %}{% endblock %}
+
+{% block body_class %}r25-t-purple{% endblock %}
+
+{% block category_title %}Meet the Advocates{% endblock %}
+{% block category_desc %}
+These daring individuals are transforming imaginative ideas into reality.
+They’re crafting businesses and solutions with AI to meet societal needs,
+improve everyday life and forge new technological paths. They embody
+innovation, steering startups and projects with a commitment to ethical
+standards, inclusiveness and enhancing human welfare through technology.
+{% endblock %}
+
+{% block honorees_content %}
+{% call person(
+    id='person-name',
+    name='Person<br> Name',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='person-name',
+    name='Person<br> Name',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='person-name',
+    name='Person<br> Name',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='person-name',
+    name='Person<br> Name',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='person-name',
+    name='Person<br> Name',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  <div class="r25-c-next r25-t-orange">
+    <a href="/change-agents/">
+      <h3>Meet the<br> Change Agents</h3>
+    </a>
+  </div>
+{% endblock %}

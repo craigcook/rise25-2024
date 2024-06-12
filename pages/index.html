@@ -1,12 +1,11 @@
 {% extends "base.html" %}
 
-{% block page_title %}Rise25 - Meet the 2024 winners{% endblock %}
+{% block page_title %}Rise25 - Meet the 2024 honorees{% endblock %}
 {% block page_desc %}{% endblock %}
 
 {% block page_css %}
 <link rel="stylesheet" href="/media/css/index.scss">
 {% endblock %}
-
 
 {% macro category(id, theme_class, title, desc, expanded, link) %}
 <div id="{{ id }}" class="r25-c-category {{ theme_class }}">
@@ -20,11 +19,10 @@
   </div>
 
   <p class="r25-c-category-cta">
-    <a class="r25-c-button t-dark" href="{{ link }}">See the winners</a>
+    <a class="r25-c-button t-dark" href="{{ link }}">See the honorees</a>
   </p>
 </div>
 {% endmacro %}
-
 
 {% block content %}
 <section class="r25-hero">
@@ -38,7 +36,7 @@
   <div class="mzp-l-content">
     <div class="r25-hero-content">
       <h1 class="r25-c-wordmark">Rise25</h1>
-      <h2 class="r25-fancy-title">Meet the Winners</h2>
+      <h2 class="r25-fancy-title">Meet the Honorees</h2>
       <p class="r25-hero-intro">Discover what sets these standout individuals apart in each of our five categories.</p>
       <div class="r25-hero-cta">
         <p><a href="#categories" class="r25-c-button">Categories</a></p>
@@ -121,7 +119,7 @@
   ) }}
 </section>
 
-<section class="r25-previous" id="winners-2023">
+<section class="r25-previous" id="honorees-2023">
   <div class="r25-background-overlay"></div>
   <video class="r25-background-video" preload="auto" playsinline autoplay loop muted width="680" height="383">
     <source src="https://assets.mozilla.net/rise25/rise25-2024-docuseries-loop.webm" type="video/webm">
@@ -131,9 +129,9 @@
 
   <div class="mzp-l-content">
     <div class="r25-previous-content">
-      <h2 class="r25-previous-title"><span>Glance back</span> to our 2023 winners</h2>
+      <h2 class="r25-previous-title"><span>Glance back</span> to our 2023 honorees</h2>
       <div class="r25-previous-cta">
-        <p><a href="#" class="r25-c-button">Watch these video profiles</a></p>
+        <p><a href="https://www.youtube.com/playlist?list=PLnRGhgZaGeBs96fHlOFhrVaHsgflAX4cP" rel="noopener" target="_blank" class="r25-c-button">Watch these video profiles</a></p>
       </div>
     </div>
   </div>

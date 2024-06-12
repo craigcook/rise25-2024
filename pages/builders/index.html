@@ -1,0 +1,85 @@
+{#
+ # This Source Code Form is subject to the terms of the Mozilla Public
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ #}
+
+{% extends "honorees-base.html" %}
+
+{% block page_title %}Rise25 - 2024 Honorees - Meet the Builders{% endblock %}
+{% block page_desc %}{% endblock %}
+
+{% block body_class %}r25-t-teal{% endblock %}
+
+{% block category_title %}Meet the Builders{% endblock %}
+{% block category_desc %}
+They’re the architects of trustworthy AI, including engineers and data
+scientists dedicated to the principles of open source, open data and
+open science. They focus on technical proficiency and responsible and
+ethical construction. Their work ensures AI is secure, accessible and
+reliable, aiming to create tools that empower and advance society.
+{% endblock %}
+
+{% block honorees_content %}
+{% call person(
+    id='stella-biderman',
+    name='Stella<br> Biderman',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='roberto-di-cosmo',
+    name='Roberto<br> Di Cosmo',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='aaron-gokaslan',
+    name='Aaron<br> Gokaslan',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='raesetje-sefala',
+    name='Raesetje<br> Sefala',
+    image='/media/img/people/placeholder.jpg'
+  ) %}
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates quidem est delectus sint culpa illo nesciunt quam quia recusandae, voluptatem ea veniam nostrum sequi! Praesentium, dolorum iure! In, aspernatur?</p>
+  {% endcall %}
+
+  {% call person(
+    id='kathleen-siminyu',
+    name='Kathleen<br> Siminyu',
+    image='/media/img/people/kathleen-siminyu.jpg',
+    image15x='/media/img/people/kathleen-siminyu-15x.jpg'
+  ) %}
+    <p>Kathleen is a Natural Language Processing researcher at the DAIR
+      Institute. She focuses her research on African languages as a form of
+      activism and from a desire to see these languages better represented on
+      digital platforms. Kathleen has been involved in various efforts to build
+      language datasets. Her experiences in building open datasets has inspired
+      a desire to explore data governance and licensing models that can ensure
+      maximum benefit is returned to the communities of dataset builders and
+      subjects.<p>
+
+    <p>Kathleen also works with African AI communities to enable ecosystem
+      capacity building and research relevant to Africa. She continues to
+      organize with communities as part of the
+      <a href="https://deeplearningindaba.com/" rel="noopener" target="_blank">Deep Learning Indaba</a>,
+      where she is a trustee and the
+      <a href="https://www.masakhane.io/" rel="noopener" target="_blank">Masakhane Research Foundation</a>,
+      where she is a director.</p>
+  {% endcall %}
+
+  <div class="r25-c-next r25-t-green">
+    <a href="/artists/">
+      <h3>Meet the<br> Artists</h3>
+    </a>
+  </div>
+{% endblock %}
