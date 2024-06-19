@@ -17,7 +17,7 @@
     {{ caller() }}
   </div>
   <p class="r25-c-person-link"><a class="r25-js-person" href="#{{ id }}">Read on</a></p>
-  <img class="r25-c-person-img" src="{{ image }}"{% if image15x %} srcset="{{ image15x }} 1.5x"{% endif %} alt="{{ name|striptags }}" width="400" height="600" loading="lazy">
+  <img class="r25-c-person-img" src="{{ image }}"{% if image15x %} srcset="{{ image15x }} 1.5x"{% endif %} alt="{{ name|striptags }}" width="400" height="400" loading="lazy">
   {% include "partials/social-share.html" %}
 </article>
 {% endmacro %}
