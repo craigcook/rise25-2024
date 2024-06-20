@@ -82,7 +82,7 @@ if (typeof window.Mozilla === 'undefined') {
             url + '#' + personId + '?utm_campaign=rise25&utm_medium=organicsocial&utm_source=twitter&utm_content=rise25-share'
         );
         var tweetText = encodeURIComponent(
-            personName + ' is one of Mozilla’s Rise25 honorees! \n\nWinners will be honored at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n'
+            personName + ' is one of Mozilla’s Rise25 honorees! \n\nThey will be honored along with 24 other visionaries at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n'
         );
         return (
             'https://www.twitter.com/intent/tweet?url=' +
@@ -100,7 +100,7 @@ if (typeof window.Mozilla === 'undefined') {
             url + '#' + personId + '?utm_campaign=rise25&utm_medium=organicsocial&utm_source=twitter&utm_content=rise25-share'
         );
         var shareText = encodeURIComponent(
-            personName + ' is one of Mozilla’s Rise25 honorees! \n\nWinners will be honored at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n'
+            personName + ' is one of Mozilla’s Rise25 honorees! \n\nThey will be honored along with 24 other visionaries at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n'
         );
         return (
             'https://facebook.com/sharer.php?u=' +
@@ -164,7 +164,7 @@ if (typeof window.Mozilla === 'undefined') {
             var personName = person.dataset.personName;
             var subject = encodeURIComponent(personName + ' is one of Mozilla’s Rise25 honorees!');
             var body = encodeURIComponent(
-                personName + ' is one of Mozilla’s Rise25 honorees! \n\nWinners will be honored at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n' + url + '#' + personId
+                personName + ' is one of Mozilla’s Rise25 honorees! \n\nThey will be honored along with 24 other visionaries at the upcoming Rise25 awards in Dublin, Ireland. Check it out! \n\n' + url + '#' + personId
             );
             var emailButton = person.querySelector('a.email');
             emailButton.href = 'mailto:?subject=' + subject + '&body=' + body;
